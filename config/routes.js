@@ -34,6 +34,8 @@ module.exports.routes = {
 
   // 'GET /users': 'Users.find',
   // 'POST /users': 'Users.create'
+  
+  'GET /guides': 'Guides.find'
 
   /***************************************************************************
   *                                                                          *

@@ -8,6 +8,7 @@
 module.exports = {
 	find: function(req,res){
     Guide.find().exec(function(err, guides){
+      console.log('on find')
       if(err) res.json(500, err);
       else res.json(guides);
     });
