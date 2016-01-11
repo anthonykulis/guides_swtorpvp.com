@@ -7,10 +7,10 @@
 
 module.exports = {
 	find: function(req,res){
-    Guide.find().exec((err, guides){
+    Guide.find().exec(function(err, guides){
       if(err) res.json(500, err);
       else res.json(guides);
-    })
+    });
   }
 };
 

@@ -7,12 +7,9 @@
 
 module.exports = {
 
-  adapter: ['productionMongoServer']
+  connection: ['productionMongoServer'],
 
   attributes: {
-    guide: {
-      type: 'text'
-    }
   },
 
 
