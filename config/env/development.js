@@ -22,7 +22,6 @@ module.exports = {
   // }
 
   models: {
-    connection: 'devPostgresServer',
-    migrate: 'alter'
+    connection: 'devPostgresServer'
   }
 };

@@ -94,6 +94,11 @@ module.exports.connections = {
     database: 'personal_dev'
   },
 
+  productionMongoServer: {
+    adapter: 'sails-mongo',
+    url: process.env.MONGOLAB_URI
+  }
+
   /***************************************************************************
   *                                                                          *
   * More adapters: https://github.com/balderdashy/sails                      *
